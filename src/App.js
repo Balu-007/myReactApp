@@ -3,6 +3,7 @@ import './App.css';
 import AbcComponent from './AbcComponent';
 import XyzComponent from './XyzComponent';
 import Messenger from './Messenger';
+import ParentComponent from './ParentComponent';
 
 // function App() {
 //   return (
@@ -29,6 +30,7 @@ function App(){
   return(
     <div>
       <h2>This is my first app</h2>
+      <ParentComponent />
       <AbcComponent />
       <XyzComponent />
       <Messenger />
